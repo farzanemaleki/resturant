@@ -18,18 +18,18 @@
     <link href={{ asset("food-shop/img/favicon.ico") }} rel="icon">
 
     <!-- Bundle -->
-    <link href="vendor/css/bundle.min.css" rel="stylesheet">
+    <link href={{ asset("vendor/css/bundle.min.css") }} rel="stylesheet">
     <!-- Plugin Css -->
-    <link href="food-shop/css/line-awesome.min.css" rel="stylesheet">
-    <link href="vendor/css/revolution-settings.min.css" rel="stylesheet">
-    <link href="vendor/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="vendor/css/cubeportfolio.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/css/LineIcons.min.css">
-    <link href="vendor/css/wow.css" rel="stylesheet">
-    <link href="food-shop/css/settings.css" rel="stylesheet">
-    <link href="food-shop/css/blog.css" rel="stylesheet">
-    <link href="food-shop/css/style.css" rel="stylesheet">
+    <link href={{ asset("food-shop/css/line-awesome.min.css") }} rel="stylesheet">
+    <link href={{ asset("vendor/css/revolution-settings.min.css") }} rel="stylesheet">
+    <link href={{ asset("vendor/css/jquery.fancybox.min.css") }} rel="stylesheet">
+    <link href={{ asset("vendor/css/owl.carousel.min.css") }} rel="stylesheet">
+    <link href={{ asset("vendor/css/cubeportfolio.min.css") }} rel="stylesheet">
+    <link rel="stylesheet" href={{ asset("vendor/css/LineIcons.min.css") }}>
+    <link href={{ asset("vendor/css/wow.css") }} rel="stylesheet">
+    <link href={{ asset("food-shop/css/settings.css") }} rel="stylesheet">
+    <link href={{ asset("food-shop/css/blog.css") }} rel="stylesheet">
+    <link href={{ asset("food-shop/css/style.css") }} rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -67,7 +67,7 @@
                     </ul>
                 </div>
                 <div class="col-12 d-flex justify-content-center align-items-center">
-                    <a class="navbar-brand" href="index.html"><img src="food-shop/img/logo.png" alt=""></a>
+                    <a class="navbar-brand" href="/"><img src="food-shop/img/logo.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
         <div class="container">
         <div class="row no-gutters w-100">
             <div class="col-6 col-lg-3 offset-3 offset-lg-0">
-                <a href="index.html" title="Logo" class="logo fixed-nav-items">
+                <a href="/" title="Logo" class="logo fixed-nav-items">
                     <!--Logo Default-->
                     <img src="food-shop/img/logo-black.png" alt="logo" class="logo-dark">
                 </a>
@@ -946,36 +946,36 @@
 
 <!-- JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js"></script>
-<script src="vendor/js/bundle.min.js"></script>
+<script src={{ asset("/vendor/js/bundle.min.js") }}></script>
 
 <!-- Plugin Js -->
-<script src="vendor/js/jquery.appear.js"></script>
-<script src="vendor/js/jquery.fancybox.min.js"></script>
-<script src="vendor/js/owl.carousel.min.js"></script>
-<script src="vendor/js/parallaxie.min.js"></script>
+<script src={{ asset("/vendor/js/jquery.appear.js") }}></script>
+<script src={{ asset("/vendor/js/jquery.fancybox.min.js") }}></script>
+<script src={{ asset("/vendor/js/owl.carousel.min.js") }}></script>
+<script src={{ asset("/vendor/js/parallaxie.min.js") }}></script>
 <!-- REVOLUTION JS FILES -->
-<script src="vendor/js/jquery.themepunch.tools.min.js"></script>
-<script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
-<script src="vendor/js/jquery.cubeportfolio.min.js"></script>
+<script src={{ asset("/vendor/js/jquery.themepunch.tools.min.js") }}></script>
+<script src={{ asset("/vendor/js/jquery.themepunch.revolution.min.js") }}></script>
+<script src={{ asset("/vendor/js/jquery.cubeportfolio.min.js") }}></script>
 <!-- SLIDER REVOLUTION EXTENSIONS -->
-<script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
+<script src={{ asset("/vendor/js/extensions/revolution.extension.actions.min.js") }}></script>
+<script src={{ asset("/vendor/js/extensions/revolution.extension.carousel.min.js") }}></script>
+<script src={{ asset("/vendor/js/extensions/revolution.extension.kenburn.min.js") }}></script>
+<script src={{ asset("/vendor/js/extensions/revolution.extension.layeranimation.min.js") }}></script>
+<script src={{ asset("/vendor/js/extensions/revolution.extension.migration.min.js") }}></script>
+<script src={{ asset("/vendor/js/extensions/revolution.extension.navigation.min.js") }}></script>
+<script src={{ asset("/vendor/js/extensions/revolution.extension.parallax.min.js") }}></script>
+<script src={{ asset("/vendor/js/extensions/revolution.extension.slideanims.min.js") }}></script>
+<script src={{ asset("/vendor/js/extensions/revolution.extension.video.min.js") }}></script>
 
-<script src="vendor/js/wow.min.js"></script>
+<script src={{ asset("vendor/js/wow.min.js") }}></script>
 <!-- google map-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJRG4KqGVNvAPY4UcVDLcLNXMXk2ktNfY"></script>
-<script src="food-shop/js/map.js"></script>
+<script src={{ asset("food-shop/js/map.js") }}></script>
 <!--Tilt Js-->
 <!-- custom script-->
-<script src="food-shop/js/countdown.js"></script>
-<script src="food-shop/js/script.js"></script>
+<script src={{ asset("food-shop/js/countdown.js") }}></script>
+<script src={{ asset("food-shop/js/script.js") }}></script>
 
 </body>
 </html>
