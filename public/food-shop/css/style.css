@@ -3443,7 +3443,7 @@ form.findus .form-control, form.findus textarea {
        ul.shop-details.d-flex {
     margin-right: 100px;
 }
-    
+
 }
 
 @media screen and (max-width:991px){
@@ -3468,11 +3468,11 @@ form.findus .form-control, form.findus textarea {
         padding-left: 18px;
         padding-right: 18px;
     }
-    
+
     ul.shop-details.d-flex {
     margin-right: 50px;
 }
-    
+
     .tp-parallax-wrap {
     margin-top: 80px;
 }
@@ -3601,21 +3601,21 @@ form.findus .form-control, form.findus textarea {
     .standalone-area {
         /*padding-bottom: 0;*/
     }
-    
+
     .rev-slidebg {
         display: none;
     }
-    
+
     .tp-forcenotvisible, .tp-hide-revslider, .tp-caption.tp-hidden-caption, .tp-parallax-wrap.tp-hidden-caption {
             visibility: visible!important;
     display: block!important;
 
     }
-    
+
     .tparrows:before{
         line-height: 58px;
     }
-    
+
     .tparrows {
         top: 75% !important;
     }
@@ -3676,5 +3676,36 @@ form.findus .form-control, form.findus textarea {
     }
 }
 
+
+/*=================================
+       login/register page
+==================================*/
+.special-text-color{
+    color: #79a207;
+}
+
+.special-background-color{
+    background-color: #79a207;
+}
+
+.login-wrap h3{
+    color: #79a207;
+}
+.signin-form input{
+    border-radius: 40px;
+}
+
+.signin-form #password-field{
+
+}
+
+.signin-form .toggle-password{
+    position: relative;
+    top: -30px;
+    right: -315px;
+}
+.form-group{
+    height: 38px!important;
+}
 
 

@@ -1,0 +1,122 @@
+user
+	id
+	email=>null
+	mobile=>unique
+	name
+	password
+	confirm-password
+	avatar=>null
+	role
+	verify-code=>null
+	verifed-at=>null
+
+address
+	id
+	user_id
+	address
+	postal_code
+
+category
+	id
+	title
+	slug
+	description=>null
+	status
+	icon=>null	
+	banner=>null
+
+product
+	id
+	name
+	slug
+	price
+	description
+	image=>null
+	category_id
+	discount
+	count
+	rate
+	status
+
+product_attribute
+	id
+	product_id
+	key
+	value
+
+site_infos
+	company_name
+	company_tell
+	manager_tell
+	company_logo
+	short_description
+	description
+	
+social_media
+	id
+	title
+	address
+	icon	
+
+order
+	id
+	user_id
+	product_id
+	product_name
+	product_count
+	product_price
+	delivery_address_id
+	amount
+	discount
+	description	
+	
+payment
+	id
+	user_id
+	user_address_id
+	order_id
+	amount
+	RefID
+	card_pan
+	status
+	
+blog_category
+	id
+	title
+	slug
+	body	
+	image
+	status
+
+blog
+	id
+	title
+	slug
+	category_id
+	short_description
+	description
+	image
+	status
+	author
+	count_view
+	tags
+	
+
+comment
+	id
+	user_id
+	title
+	description
+	commentable_id
+	commentable_type
+	confirmed
+
+electrical_symbols
+	id
+	title
+	image
+
+	
+	
+	
+	
